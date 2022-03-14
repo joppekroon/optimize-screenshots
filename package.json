@@ -1,0 +1,20 @@
+{
+  "name": "optimize-images",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "optimize.js",
+  "bin": {
+    "optimize": "optimize.js"
+  },
+  "scripts": {
+    "start": "node ./optimize.js help"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.0.0",
+    "sharp": "^0.30.2"
+  }
+}
