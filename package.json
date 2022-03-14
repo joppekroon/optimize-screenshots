@@ -2,7 +2,7 @@
   "name": "optimize-images",
   "type": "module",
   "version": "1.0.0",
-  "description": "",
+  "description": "Takes PNG screenshots, and produces optimized versions",
   "main": "optimize.js",
   "bin": {
     "optimize": "optimize.js"
@@ -10,9 +10,9 @@
   "scripts": {
     "start": "node ./optimize.js help"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["screenshot", "optimize"],
+  "author": "Joppe Kroon",
+  "license": "MIT",
   "dependencies": {
     "commander": "^9.0.0",
     "sharp": "^0.30.2"
