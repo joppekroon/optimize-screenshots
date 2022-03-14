@@ -1,12 +1,10 @@
 # Optimize Screenshots
 
-Takes a PNG screenshot, and produces a optimized version plus a range of WebP versions.
-Can also search a directory for PNG screenshots, and apply the tranformation to each.
+Takes a PNG screenshot, or a directory of them, and optimizes them plus a range of WebP versions.
 
-# Usage
+## Usage
 
 Clone the repository
-
 
 Install the dependencies
 ```
@@ -15,23 +13,24 @@ Install the dependencies
 
 And you can run the script from the root of the repository.
 ```
-  node ./optimize.js file <file> <dest> --widths <pixels...>
-  node ./optimize.js dir <dir> <dest> --widths <pixels...>
+  node ./optimize.js <source> <dest> --widths <pixels...>
 ```
 
-# Install to path
+## Install to path
 
 You can also install the script to your path, and use it everywhere.
 
 From the root of the repository:
 ```
-  npm install -g .
+  npm install --global .
 ```
 
 And then you can just run `optimize`
 ```
-  optimize file --widths 1200 800 'test screenshot.png' 'public\assets'
+  optimize 'test screenshot.png' 'public\assets' --widths 1200 800
 ```
+
+## PowerShell
 
 When running from PowerShell, it may complain that:
 ```
