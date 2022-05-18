@@ -12,7 +12,7 @@ program
 ;
 
 program
-  .description("optimize a single screenshot")
+  .description("optimize a single screenshot or directory of screenshots")
   .argument("<source>", "path of the file or directory")
   .argument("<dest>", "path of the destination directory")
   .option("-w, --widths <pixels...>", "generate additional WebP files with these widths")

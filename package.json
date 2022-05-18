@@ -8,9 +8,12 @@
     "optimize": "optimize.js"
   },
   "scripts": {
-    "start": "node ./optimize.js help"
+    "start": "node ./optimize.js --help"
   },
-  "keywords": ["screenshot", "optimize"],
+  "keywords": [
+    "screenshot",
+    "optimize"
+  ],
   "author": "Joppe Kroon",
   "license": "MIT",
   "dependencies": {
